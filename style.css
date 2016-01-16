@@ -1,0 +1,28 @@
+body{
+  background-image: url('pillarsofcreation.jpg');
+  background-size: 100vw;
+  font-size: 22px;
+  color: #bb8;
+  text-shadow: #333 1px 0 10px;
+}
+p{
+  color: beige;
+}
+.form{
+  display: inline;
+}
+.row{
+  margin: 20px;
+}
+
+button{
+  margin-top: 36px;
+}
+
+span{
+  color: beige;
+}
+
+th{
+  color: #F88;
+}

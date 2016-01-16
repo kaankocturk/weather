@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Weather</title>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+  <script src='https://code.jquery.com/jquery-2.2.0.min.js'></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container main">
+    <div class="row" id="row1">
+      <div class="input col-xs-12 form">
+        <p class='inform'>Please enter either city AND state or just the zip code.</p>  <br>
+      <div class="col-sm-3">
+        <div>
+          <label for="city">City:</label>
+          <input type="text" class="form-control" id="city">
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div>
+          <label for="state">State:</label>
+          <input type="text" class="form-control" id="state">
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div>
+          <label for="zip">Zip:</label>
+          <input type="text" class="form-control" id="zip">
+        </div>
+      </div>
+      <div class="col-sm-3">
+            <button class="btn btn-info submit">Submit</button>
+      </div>
+    </div>
+    </div>
+    <div class="row" id="roWeird"></div>
+    <div class="row" id="row2">
+      <div class="col-xs-3 conditions">
+        <table class="table">
+          <thead>
+
+              <th id='ccaption'>Current weather</th>
+
+          </thead>
+            <tbody id='tcurrent'>
+              
+            </tbody>
+        </table>
+      </div>
+      <div class="col-xs-9 forecast">
+        <table class="table">
+          <thead>
+
+              <th id='caption'>The near future</th>
+
+          </thead>
+            <tbody id='tforecast'>
+            </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src='main.js'></script>
+  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+</body>
+
+</html>
